@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <style>
+        body {
+            background-image: url('https://img.freepik.com/free-photo/close-up-on-kitten-surrounded-by-flowers_23-2150782329.jpg?w=360&t=st=1704833618~exp=1704834218~hmac=14171cc68583d637e6d7445ce532b11d088b889cd8cecd8dc993466259aeeda8');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: rgba(0, 0, 0, 0.909);
+            font-family: 'Your Desired Font', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        form {
+            max-width: 450px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            width: 100%;
+            font-weight: bold;
+        }
+        textarea {
+            width: 100%;
+        }
+
+        button {
+            background-color: white;
+            color: red;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Регистрация</h1>
+    <form>
+        <label>
+            <p>Имя пользователя:</p>
+            <input type="text" name="name" placeholder="Укажите имя" required>
+        </label>
+        
+        <label>
+            <p>Фамилия:</p>
+            <input type="text" name="family_name" placeholder="Укажите фамилию" required>
+        </label>
+        
+        <label>
+            <p>Электронная почта:</p>
+            <input type="email" name="email" placeholder="Укажите вашу почту" required>
+        </label>
+        
+        <label>
+            <p>Пароль:</p>
+            <input type="password" name="password" placeholder="Введите пароль" required>
+        </label>
+        
+        <label>
+            <p>Пол:</p>
+            <select name="gender" required>
+                <option value="Women">Женский</option>
+                <option value="Man">Мужской</option>
+            </select>
+        </label>
+        
+        <label>
+            <p>Дата рождения:</p>
+            <input type="date" id="birthdate" name="birthdate" required>
+        </label>
+        
+        <label>
+            <input type="checkbox" id="termsCheckbox" name="termsCheckbox" required>
+            Я согласен(а) с условиями использования
+        </label>
+        
+        <label>
+            <p>Описание:</p>
+            <textarea name="description" placeholder="Пару слов о вас пожалуйста:" required></textarea>
+        </label>
+        
+        <button type="submit">Зарегистрироваться</button>
+    </form>
+</body>
+</html>
+
+
+<!-- Создайте HTML-страницу с заголовком "Регистрация".
+Внутри страницы добавьте форму с использованием тега <form>.
+Добавьте следующие поля ввода:
+Имя (текстовое поле)
+Фамилия (текстовое поле)
+Электронная почта (текстовое поле с типом email)
+Пароль (поле для ввода пароля)
+Пол (выбор из опций: Мужской, Женский, Другой)
+Дата рождения (поле для ввода даты)
+Согласие с условиями использования (чекбокс)
+Добавьте кнопку "Зарегистрироваться" для отправки формы.
+Примените атрибуты required к полям по выбору, чтобы обеспечить обязательное заполнение. --> -->
